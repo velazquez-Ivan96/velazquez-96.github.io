@@ -1,0 +1,11 @@
+html,
+body,
+header,
+#intro{
+    height: 100%;
+}
+
+#intro{
+    background: url(../images/pexels-johannes-plenio-1103970.jpg)no-repeat center center-fixed;
+    background-size: cover;
+}
