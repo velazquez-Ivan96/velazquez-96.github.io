@@ -1,11 +1,15 @@
 html,
 body,
 header,
-#intro{
+#Intro{
     height: 100%;
 }
 
-#intro{
-    background: url(../../images/pexels-johannes-plenio-1103970.jpg)no-repeat center center-fixed;
+#Intro{
+    background: url("../../images/pexels-johannes-plenio-1103970.jpg")no-repeat center;
     background-size: cover;
+}
+
+hr{
+    background-color: white;
 }

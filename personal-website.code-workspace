@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"name": "velazquez-96.github.io",
+			"path": "."
+		},
+		{
+			"name": "exclusive-templates",
+			"path": "../MDB-Free_4/exclusive-templates"
+		},
+		{
+			"name": "scss",
+			"path": "../MDB-Free_4/scss"
+		},
+		{
+			"name": "css",
+			"path": "../MDB-Free_4/css"
+		},
+		{
+			"name": "src",
+			"path": "../MDB-Free_4/src"
+		},
+		{
+			"name": "js",
+			"path": "../MDB-Free_4/js"
+		},
+		{
+			"name": "img",
+			"path": "../MDB-Free_4/img"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "velazquez-96.github.io"
+	}
+}
