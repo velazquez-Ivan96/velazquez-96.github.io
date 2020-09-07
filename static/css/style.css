@@ -1,15 +1,62 @@
-html,
-body,
-header,
-#Intro{
+html, body {
     height: 100%;
 }
 
-#Intro{
+/* #Intro {
     background: url("../../images/pexels-johannes-plenio-1103970.jpg")no-repeat center;
     background-size: cover;
+} */
+
+/* hr {
+    background-color: white;
+} */
+
+*/ .cont {
+    position: relative;
+    width: 50%;
 }
 
-hr{
-    background-color: white;
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.cont:hover .overlay {
+    opacity: 1;
+}
+
+.description {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.card-img-top{
+    width:  100%;
+    height: 300px;
+    
+}
+.fab{
+    font-size: 3em;
+}
+.fas{
+    font-size: 3em;
 }

@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Material Design for Bootstrap</title>
+  <title>Iván Velázquez</title>
   <!-- MDB icon -->
   <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
   <!-- Font Awesome -->
@@ -17,7 +17,26 @@
   <!-- Material Design Bootstrap -->
   <link rel="stylesheet" href="css/mdb.min.css">
   <!-- Your custom styles (optional) -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="static/css/style.css">
+
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Responsive Resume Template">
+  <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+
+  <!-- FontAwesome JS-->
+  <script defer src="assets/fontawesome/js/all.min.js"></script>
+
+  <!-- Theme CSS -->
+  <link id="theme-style" rel="stylesheet" href="assets/css/pillar-1.css">
+
+
 </head>
 
 <body>
@@ -25,11 +44,11 @@
   <!-- Start your project here-->
   <header>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+    <nav class="navbar navbar-expand-lg navbar-dark indigo">
       <div class="container">
         <!-- Navbar brand -->
         <a class="navbar-brand" href="#">
-          <img src="https://mdbootstrap.com/img/logo/mdb-transparent.png" height="30" alt="mdb logo">
+          <h3><strong>IVM</strong></h3>
         </a>
 
         <!-- Collapse button -->
@@ -43,19 +62,19 @@
 
           <!-- Links -->
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">About
-                <span class="sr-only">(current)</span>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About
+                <span class="sr-only"></span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="#Portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Resume</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#Contact">Contact</a>
             </li>
           </ul>
           <!-- Links -->
@@ -69,27 +88,17 @@
           <!-- Links -->
           <ul class="navbar-nav ml-auto nav-flex-icons">
             <li class="nav-item">
-              <a class="nav-link waves-effect waves-light">
+              <a class="nav-link waves-effect waves-light"
+                href="https://www.linkedin.com/in/iván-michel-velázquez-mart%C3%ADnez-b20631106/">
                 <i class="fab fa-linkedin"></i>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link waves-effect waves-light">
+              <a class="nav-link waves-effect waves-light" href="https://github.com/velazquez-96?tab=repositories">
                 <i class="fab fa-github"></i>
               </a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-user"></i>
-              </a>
-              <div class="dropdown-menu dropdown-menu-right dropdown-default"
-                aria-labelledby="navbarDropdownMenuLink-333">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
+
           </ul>
 
         </div>
@@ -103,9 +112,10 @@
     <div class="jumbotron text-center">
 
       <!-- Title -->
-      <h2 class="card-title h2">Iván Velázquez</h2>
+      <h2><strong>Iván Velázquez</strong></h2>
       <!-- Subtitle -->
-      <p class="black-text my-10 font-weight-bold">Data Analyst</p>
+      <h3><strong>Data Analyst</strong></h3>
+      <!-- <p class="black-text my-10 font-weight-bold">Data Analyst</p> -->
 
       <!-- Grid row -->
       <div class="row d-flex justify-content-center">
@@ -115,8 +125,8 @@
       </div>
       <!-- Grid row -->
       <div class="pt-2">
-        <button type="button" class="btn btn-outline-primary">Skills <span class=""></span></button>
-        <button type="button" class="btn btn-outline-primary waves-effect">Portfolio <i class=""></i></button>
+        <a href="#About" class="btn btn-outline-primary" role="button">Skills</a>
+        <a href="#Portfolio" class="btn btn-outline-primary" role="button">Portfolio</a>
       </div>
 
     </div>
@@ -124,172 +134,426 @@
   </header>
 
   <main>
+
     <div class="container">
       <section id="About" class="text-center">
         <div class="row">
           <div class="col-md-12">
-            <h3 class="my-5">
+            <h3 class="my-3">
               <strong>About Me</strong>
             </h3>
           </div>
         </div>
-        <div class="row">
+        <div class="row mb-4">
           <div class="col-md-6">
             <img src="images/Captura de Pantalla 2020-01-05 a la(s) 12.43.06.png"
               class="rounded-circle shadow-1-strong mb-4" alt="Avatar">
             <p>Who is this guy?</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi voluptatibus at dolore delectus
-              repudiandae. Sed, omnis minus quis exercitationem iste adipisci modi doloribus, minima odit dolor debitis
-              ratione, facere atque!</p>
+            <p>Data Analyst with a background in Sustainable Development Engineering and skills in handling and
+              analyzing data with Python, Excel, VBA and SQL from Tecnologico de Monterrey Data Analytics and
+              Visualization Bootcamp. Passionate about analyzing large sets data from different fields to generate
+              useful insights and help to make better decisions in organizations to the creation of shared value. </p>
           </div>
-          <div class="col-md-6"></div>
-        </div>
+          <div class="col-md-6">
+
+            <div class="row">
+              <div class="col-md-12 mb-3">
+                <h5>Technical Skills</h5>
+              </div>
+            </div>
+            <!-- First row -->
+
+            <div class="row">
+              <div class="col-md-4 col-sm-4 mb-4">
+                <i class="fab fa-html5 fa-3x m-2"></i>
+                <p>HTML</p>
+              </div>
+              <div class="col-md-4 col-sm-4 mb-4">
+                <i class="fab fa-css3 fa-3x m-2"></i>
+                <p>CSS</p>
+              </div>
+              <div class="col-md-4 col-sm-4 mb-4">
+                <i class="fab fa-js fa-3x m-2"></i>
+                <p>JS</p>
+              </div>
+            </div>
+            <!-- First row -->
+
+            <!-- Second row -->
+
+            <div class="row">
+              <div class="col-md-4 col-sm-4 mb-4">
+                <i class="fab fa-node-js fa-3x m-2"></i>
+                <p>Node.js</p>
+              </div>
+
+              <div class="col-md-4 col-sm-4 mb-4">
+                <i class="fab fa-react fa-3x m-2"></i>
+                <p>React</p>
+              </div>
+
+              <div class="col-md-4 col-sm-4 mb-4">
+                <i class="fab fa-vuejs fa-3x m-2"></i>
+                <p>Vue.js</p>
+              </div>
+            </div>
+            <!-- Second row -->
+
+            <!-- Third row -->
+
+            <div class="row">
+              <div class="col-md-6  col-sm-6 mb-4">
+                <i class="fas fa-database fa-3x m-2"></i>
+                <p>Databases</p>
+              </div>
+
+              <div class="col-md-6 col-sm-6 mb-4">
+                <i class="fas fa-terminal fa-3x m-2"></i>
+                <p>Unix</p>
+              </div>
+            </div>
+
+          </div>
       </section>
     </div>
 
     <div class="container">
-      <div class="row text-center mt-5">
-        <div class="col-md-12">
-          <h3>
-            <strong>Resume</strong>
-          </h3>
-
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <!-- Timeline -->
-          <div class="row">
-            <div class="col-md-12">
-              <div class="timeline-main">
-                <!-- Timeline Wrapper -->
-                <ul class="stepper stepper-vertical timeline timeline-simple timeline-images pl-0">
-
-                  <li>
-                    <!--Section Title -->
-                    <a href="#!">
-                      <span class="circle cyan lighten-1">1</span>
-                    </a>
-
-                    <!-- Section Description -->
-                    <div class="step-content ml-6 p-0 hoverable">
-                      <h4 class="font-weight-bold p-4 mb-0">Ut enim ad minim veniam</h4>
-                      <p class="text-muted px-4 mb-0"><i class="far fa-clock" aria-hidden="true"></i> 2017</p>
-                      <p class="mb-0 p-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                  </li>
-                  <li class="timeline-inverted">
-                    <!--Section Title -->
-                    <a href="#!">
-                      <span class="circle cyan lighten-1">2</span>
-                    </a>
-                    <!-- Section Description -->
-                    <div class="step-content mr-xl-3 p-0 hoverable">
-
-                      <h4 class="font-weight-bold p-4 mb-0">Duis aute irure dolor</h4>
-                      <p class="text-muted px-4 mb-0"><i class="far fa-clock" aria-hidden="true"></i> 2016</p>
-                      <p class="mb-0 p-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                        architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                        aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
-                        sequi nesciunt.</p>
-                    </div>
-                  </li>
-                  <li>
-                    <!--Section Title -->
-                    <a href="#!">
-                      <span class="circle cyan lighten-1">3</span>
-                    </a>
-
-                    <!-- Section Description -->
-                    <div class="step-content ml-3 p-0 hoverable">
-
-                      <h4 class="font-weight-bold p-4 mb-0">Sed ut nihil unde omnis</h4>
-                      <p class="text-muted px-4 mb-0"><i class="far fa-clock" aria-hidden="true"></i> 2015</p>
-                      <p class="mb-0 p-4">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-                        adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam
-                        aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-                        suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure
-                        reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui
-                        dolorem eum fugiat quo voluptas nulla pariatur?</p>
-                    </div>
-                  </li>
-                  <li class="timeline-inverted">
-                    <!--Section Title -->
-                    <a href="#!">
-                      <span class="circle cyan lighten-1">4</span>
-                    </a>
-
-                    <!-- Section Description -->
-                    <div class="step-content mr-xl-3 p-0 hoverable">
-
-                      <h4 class="font-weight-bold p-4 mb-0"> Quis autem vel eum voluptate</h4>
-                      <p class="text-muted px-4 mb-0"><i class="far fa-clock" aria-hidden="true"></i> 2014</p>
-                      <p class="mb-0 p-4">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                        praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
-                        occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi,
-                        id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
-                    </div>
-                  </li>
-                  <li>
-                    <!--Section Title -->
-                    <a href="#!">
-                      <span class="circle cyan lighten-1">5</span>
-                    </a>
-
-                    <!-- Section Description -->
-                    <div class="step-content ml-3 p-0 hoverable">
-
-                      <h4 class="font-weight-bold p-4 mb-0">Mussum ipsum cacilds</h4>
-                      <p class="text-muted px-4 mb-0"><i class="far fa-clock" aria-hidden="true"></i> 2013</p>
-                      <p class="mb-0 p-4">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus
-                        saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum
-                        hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut
-                        perferendis doloribus asperiores repellat.</p>
-                    </div>
-                  </li>
-                </ul>
-                <!-- Timeline Wrapper -->
-              </div>
-            </div>
+      <!-- <div class="section" id="Resume"> -->
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h3 class="my-3">
+              <strong>Resume</strong>
+            </h3>
           </div>
-          <!-- Timeline -->
         </div>
-        <div class="col-md-6"></div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row text-center">
-        <div class="col-md-12">
-          <h3>
-            <strong>Portfolio</strong>
-          </h3>
-        </div>
-      </div>
       <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4"></div>
-        <div class="col-md-4"></div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row text-center">
-        <div class="col-md-12">
-          <h3>
-            <strong>Contact</strong>
-          </h3>
-        </div>
-      </div>
-      <div class="row">
+        <div class="col-md-8">
+          <section class="resume-section experience-section mb-5">
+            <h3 class="my-3">
+              <strong>Education</strong>
+            </h3>
+            <div class="resume-section-content">
+              <div class="resume-timeline position-relative">
+                <article class="resume-timeline-item position-relative pb-5">
 
+                  <div class="resume-timeline-item-header mb-2">
+                    <div class="d-flex flex-column flex-md-row">
+                      <h3 class="resume-position-title font-weight-bold mb-1">Data Analytics and Visualization Bootcamp</h3>
+                      
+                    </div>
+                    <!--//row-->
+                    <div class="resume-position-time">Mar - Sept 2020</div>
+                  </div>
+                  <!--//resume-timeline-item-header-->
+                  <div class="resume-timeline-item-desc">
+                    <p>Praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                      occaecati cupiditate non provident.</p>
+                  </div>
+                  <!--//resume-timeline-item-desc-->
+
+                </article>
+                <!--//resume-timeline-item-->
+
+                <article class="resume-timeline-item position-relative pb-5">
+
+                  <div class="resume-timeline-item-header mb-2">
+                    <div class="d-flex flex-column flex-md-row">
+                      <h3 class="resume-position-title font-weight-bold mb-1">Sustainable Development Engineering</h3>
+                      
+                    </div>
+                    <!--//row-->
+                    <div class="resume-position-time">2014 - 2018</div>
+                  </div>
+                  <!--//resume-timeline-item-header-->
+                  <div class="resume-timeline-item-desc">
+                    <p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                      ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+                      nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec
+                      pede justo, fringilla vel.</p>
+                  </div>
+                  <!--//resume-timeline-item-desc-->
+
+                </article>
+                <!--//resume-timeline-item-->
+
+                <article class="resume-timeline-item position-relative pb-5">
+
+                  <div class="resume-timeline-item-header mb-2">
+                    <div class="d-flex flex-column flex-md-row">
+                      <h3 class="resume-position-title font-weight-bold mb-1">Semester Abroad</h3>
+                    </div>
+                    <!--//row-->
+                    <div class="resume-position-time">2012 - 2014</div>
+                  </div>
+                  <!--//resume-timeline-item-header-->
+                  <div class="resume-timeline-item-desc">
+                    <p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                      ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+                      nascetur ridiculus mus. Donec quam felis, ultricies nec.</p>
+                  </div>
+                  <!--//resume-timeline-item-desc-->
+
+                </article>
+                <!--//resume-timeline-item-->
+
+                
+
+
+              </div>
+              <!--//resume-timeline-->
+
+
+
+
+
+
+            </div>
+          </section>
+          <!--//experience-section-->
+        </div>
+        <div class="col-md-4">
+
+        </div>
       </div>
+      <!-- </div> -->
     </div>
+
+    <div class="container">
+      <section id="Portfolio" class="text-center">
+        <div class="row text-center">
+          <div class="col-md-12 col-sm-12 mb-4">
+            <h3>
+              <strong>Portfolio</strong>
+            </h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <!-- Card -->
+            <div class="card">
+              <div class="cont">
+                <!-- Card image -->
+                <img class="card-img-top" src="images/Contaminacion.jpg" alt="Card image cap">
+                <div class="overlay">
+
+                  <div class="description">
+                    <p>The project was focused on studying the effects of world agreements on global pollution by
+                      wrangling, analyzing, and visualizing data using pandas, plotly, seaborn, matplotlib and Goolgle
+                      API.</p>
+                    <a href="https://github.com/velazquez-Ivan96/Global-Pollution-Project" class="btn btn-primary">Take
+                      me there</a>
+                  </div>
+                </div>
+
+              </div>
+              <!-- Card content -->
+              <div class="card-body">
+
+                <!-- Title -->
+                <h4 class="card-title"><a>Global Pollution Analysis</a></h4>
+                <!-- Text -->
+                <!-- Button -->
+
+              </div>
+
+            </div>
+            <!-- Card -->
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <!-- Card -->
+            <div class="card">
+              <div class="cont">
+                <!-- Card image -->
+                <img class="card-img-top" src="images/Beach.jpg" alt="Card image cap">
+                <div class="overlay">
+
+                  <div class="description">
+                    <p>Climate analysis and design of a Flask API of Honolulu, Hawaii using SQLAlchemy ORM queries,
+                      Pandas, and Matplotlib.</p>
+                    <a href="https://github.com/velazquez-Ivan96/Advanced-Data-Storage-And-Retrieval"
+                      class="btn btn-primary">Take me there</a>
+                  </div>
+                </div>
+
+              </div>
+              <!-- Card content -->
+              <div class="card-body">
+
+                <!-- Title -->
+                <h4 class="card-title"><a>Climate Analysis App</a></h4>
+                <!-- Text -->
+                <!-- Button -->
+
+              </div>
+
+            </div>
+            <!-- Card -->
+          </div>
+          <div class="col-md-4 mb-4">
+            <!-- Card -->
+            <div class="card">
+              <div class="cont">
+                <!-- Card image -->
+                <img class="card-img-top" src="images/Space.jpg" alt="Card image cap">
+                <div class="overlay">
+
+                  <div class="description">
+                    <p>Web application that scrapes various websites for data using Splinter and BeautifulSoup; use
+                      MongoDB with Flask templating to create an HTML page</p>
+                    <a href="https://github.com/velazquez-Ivan96/Web-scrapping-Mars-Project"
+                      class="btn btn-primary">Take me there</a>
+                  </div>
+                </div>
+
+              </div>
+              <!-- Card content -->
+              <div class="card-body">
+
+                <!-- Title -->
+                <h4 class="card-title"><a>Web App - Mars project</a></h4>
+                <!-- Text -->
+                <!-- Button -->
+
+              </div>
+
+            </div>
+            <!-- Card -->
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <!-- Card -->
+            <div class="card">
+              <div class="cont">
+                <!-- Card image -->
+                <img class="card-img-top" src="images/Microbe.jpg" alt="Card image cap">
+                <div class="overlay">
+
+                  <div class="description">
+                    <p>Interactive dashboard to explore the Belly Button Biodiversity dataset by using Plotly.js</p>
+                    <a href="https://github.com/velazquez-Ivan96/Interactive-Dashboard" class="btn btn-primary">Take me
+                      there</a>
+                  </div>
+                </div>
+
+              </div>
+              <!-- Card content -->
+              <div class="card-body">
+
+                <!-- Title -->
+                <h4 class="card-title"><a>Interactive Dashboard</a></h4>
+                <!-- Text -->
+                <!-- Button -->
+
+              </div>
+
+            </div>
+            <!-- Card -->
+          </div>
+          <div class="col-md-4 mb-4">
+            <!-- Card -->
+            <div class="card">
+              <div class="cont">
+                <!-- Card image -->
+                <img class="card-img-top" src="images/Online.jpg" alt="Card image cap">
+                <div class="overlay">
+
+                  <div class="description">
+                    <p>Project focused on analyzing touch attributions of an apparel company to map customers´ journey
+                      and optimize marketing campaigns using SQL</p>
+                    <a href="https://github.com/velazquez-Ivan96/Attribution-queries" class="btn btn-primary">Take me
+                      there</a>
+                  </div>
+                </div>
+
+              </div>
+              <!-- Card content -->
+              <div class="card-body">
+
+                <!-- Title -->
+                <h4 class="card-title"><a>Attribution queries</a></h4>
+                <!-- Text -->
+                <!-- Button -->
+
+              </div>
+
+            </div>
+            <!-- Card -->
+          </div>
+          <div class="col-md-4 mb-4">
+            <!-- Card -->
+            <div class="card">
+              <div class="cont">
+                <!-- Card image -->
+                <img class="card-img-top" src="images/Bike.jpg" alt="Card image cap">
+                <div class="overlay">
+
+                  <div class="description">
+                    <p>Tableau dashboard for the New York Citi Bike program that analyzes data from 2018, and focused on
+                      different variables(age, gender, popularity, etc) to uncover hidden trends.</p>
+                    <a href="https://github.com/velazquez-Ivan96/Citi-Bike-Analysis-Tableau"
+                      class="btn btn-primary">Take me there</a>
+                  </div>
+                </div>
+
+              </div>
+              <!-- Card content -->
+              <div class="card-body">
+
+                <!-- Title -->
+                <h4 class="card-title"><a>CitiBike Analysis</a></h4>
+                <!-- Text -->
+                <!-- Button -->
+
+              </div>
+
+            </div>
+            <!-- Card -->
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="container">
+      <section id="Contact" class="text-center">
+        <div class="row text-center">
+          <div class="col-md-12 col-sm-12 mb-3">
+            <h3 class="my-4">
+              <strong>Contact</strong>
+            </h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-12 mb-5">
+            <i class="fas fa-map-marked-alt"></i><br>
+            <span>Based in Mexico City <br>Available for relocation</span>
+          </div>
+          <div class="col-md-4 col-sm-12 mb-5">
+            <i class="fab fa-whatsapp" style="width:20px"></i><br>
+            <span>Cell: +52 5541338675</span>
+          </div>
+          <div class="col-md-4 col-sm-12 mb-5">
+            <i class="fas fa-at"></i><br>
+            <span>velazquez.im.96@gmail.com</span>
+          </div>
+        </div>
+      </section>
+    </div>
+
   </main>
 
   <footer>
 
+    <!-- Footer -->
+    <footer class="page-footer font-small blue">
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2020 Copyright
+      </div>
+      <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
   </footer>
   <!-- End your project here-->
 
