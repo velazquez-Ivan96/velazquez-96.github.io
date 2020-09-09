@@ -54,3 +54,22 @@ html, body {
     width: 100%;
     height: 300px;
 }
+
+#btnScrollTop{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #e62739;
+    box-shadow: 0 0 10px rgba(0, 0,0 , 0.25);
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#btnScrollTop:active{
+    background: #cc2333;
+}
